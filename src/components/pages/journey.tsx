@@ -67,8 +67,8 @@ const journey = () => {
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             During my time at Guhuza. I built the front end in Swift UI and and
-            handled the response of the api change. responsible for migrating
-            the api end to a newer version
+            handled the response of the api change. Also responsible for
+            migrating the api end to a newer version
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -108,13 +108,13 @@ const journey = () => {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Moved to Canada for pursuing higher studies and Humber College,
-            Toronto.
+            Moved to Canada for pursuing higher studies in Information
+            Technology Solutions at Humber College, Toronto.
           </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            During my time at Humber College, I have learnt many new
-            technologies like AngularJS, ReactJS, Tailwind CSS, Machine
-            Learning, Data Anlasys, Androind and iOS
+            During my time at Humber, I have learnt many new technologies like
+            AngularJS, ReactJS, Tailwind CSS, Machine Learning, Data Anlasys,
+            Androind and iOS
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -216,12 +216,12 @@ const journey = () => {
           <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal list-disc pl-5 space-y-2 ">
             <li className="flex items-start">
               <span className="mr-2 text-blue-600">•</span>
-              Completed my Secondary education.
+              Enrolled in Chandigarh University to pursure Bachelor's of
+              Computer Science and Engineering.
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-blue-600">•</span>
-              Enrolled in Chandigarh University to pursure Bachelor's of
-              Computer Science and Engineering.
+              Completed my Secondary education in 2016.
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-blue-600">•</span>
@@ -229,7 +229,7 @@ const journey = () => {
             </li>
             <li className="flex items-start">
               <span className="mr-2 text-blue-600">•</span>
-              Completed Higher Education.
+              Completed Higher Education in 2014
             </li>
           </ul>
         </div>

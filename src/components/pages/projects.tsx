@@ -164,7 +164,7 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "Ruby on Rails Postgresql Stimulus",
+    badge: "Ruby on Rails Postgresql JavaScript",
     image: p3,
     url: "https://github.com/bharatraj1508/BMS_Ruby",
   },

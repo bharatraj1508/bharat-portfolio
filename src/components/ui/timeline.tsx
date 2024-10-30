@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
           From being a learner and totally new to technologies to be able to
-          develope and maintain complex projects.
+          develop and maintain complex projects.
         </p>
       </div>
 

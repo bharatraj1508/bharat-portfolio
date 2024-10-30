@@ -26,7 +26,7 @@ export function projectIntro() {
       >
         <GoogleGeminiEffect
           title="Have a look at some of my projects"
-          description="Go on, scroll down. Enjoy this animation and check out my projects."
+          description="Go on, scroll down, enjoy this animation and check out my projects."
           pathLengths={[
             pathLengthFirst,
             pathLengthSecond,
