@@ -18,21 +18,24 @@ export function projectIntro() {
   const pathLengthFifth = useTransform(scrollYProgress, [0, 0.8], [0, 1.2]);
 
   return (
-    <div
-      className="h-[400vh] bg-black w-full dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
-      ref={ref}
-    >
-      <GoogleGeminiEffect
-        title="Have a look at some of my projects"
-        description="Go on, scroll down. Enjoy this animation and check out my projects."
-        pathLengths={[
-          pathLengthFirst,
-          pathLengthSecond,
-          pathLengthThird,
-          pathLengthFourth,
-          pathLengthFifth,
-        ]}
-      />
+    <div className="w-screen dark:bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div
+        className="h-[400vh] w-full bg-black dark:border dark:border-white/[0.1] rounded-md relative pt-40 overflow-clip"
+        ref={ref}
+      >
+        <GoogleGeminiEffect
+          title="Have a look at some of my projects"
+          description="Go on, scroll down. Enjoy this animation and check out my projects."
+          pathLengths={[
+            pathLengthFirst,
+            pathLengthSecond,
+            pathLengthThird,
+            pathLengthFourth,
+            pathLengthFifth,
+          ]}
+        />
+      </div>
     </div>
   );
 }
