@@ -3,6 +3,8 @@ import About from "./components/pages/about";
 import Journey from "./components/pages/journey";
 import ProjectIntro from "./components/pages/projectIntro";
 import Projects from "./components/pages/projects";
+import ContactForm from "./components/pages/contactForm";
+import Outro from "./components/pages/outro";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Journey />
       <ProjectIntro />
       <Projects />
+      <ContactForm />
+      <Outro />
     </>
   );
 }

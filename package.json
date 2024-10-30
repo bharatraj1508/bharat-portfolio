@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.0",
+    "@tabler/icons-react": "^3.21.0",
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
