@@ -1,6 +1,7 @@
 import LandingPage from "./components/pages/landingPage";
 import About from "./components/pages/about";
 import Journey from "./components/pages/journey";
+import ProjectIntro from "./components/pages/projectIntro";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <LandingPage />
       <About />
       <Journey />
+      <ProjectIntro />
     </>
   );
 }
