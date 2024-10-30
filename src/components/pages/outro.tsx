@@ -18,7 +18,7 @@ export function outro() {
       >
         Hope you like my website!
         <br />
-        If not, blame my internet provide <br /> <br />
+        If not, blame my internet provider <br /> <br />
         Good Bye!
       </motion.h1>
     </LampContainer>
