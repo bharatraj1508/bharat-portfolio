@@ -1,9 +1,10 @@
 "use client";
 
 import { TracingBeam } from "../ui/tracing-beam";
-import p1 from "../../assets/Journey/Thread-Talk/t3.png";
+import p1 from "../../assets/Projects/p1.png";
+import p3 from "../../assets/Journey/Thread-Talk/t3.png";
 import p2 from "../../assets/Projects/p2.png";
-import p3 from "../../assets/Projects/p3.png";
+import p4 from "../../assets/Projects/p3.png";
 
 export function projects() {
   return (
@@ -59,6 +60,85 @@ export function projects() {
 
 const dummyContent = [
   {
+    title: "NEMSCAF",
+    description: (
+      <>
+        <p>
+          NEMSCAF (Node Express MongoDB) is a Command Line Interface (CLI) tool
+          designed to scaffold Node.js, Express, and MongoDB projects
+          efficiently. This tool allows developers to generate a boilerplate
+          project with customizable features like authentication and data
+          validation, ensuring a faster and standardized development process.
+        </p>
+        <br />
+
+        <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+          <h3 className="text-lg font-semibold mb-2">Key Features:</h3>
+          <ul className="list-disc list-inside space-y-2">
+            <li className="text-gray-700">
+              Quick Setup: Generate a fully functional project with just one
+              command.
+            </li>
+            <li className="text-gray-700">
+              Customizable Authentication: Choose between JWT (default) or
+              PassportJS for user authentication.
+            </li>
+            <li className="text-gray-700">
+              Validation Options: Integrate Joi for request data validation to
+              sanitize and structure user input.
+            </li>
+            <li className="text-gray-700">
+              Modular and Scalable Codebase: The boilerplate is designed with
+              clean, modular, and scalable architecture.
+            </li>
+          </ul>
+        </div>
+      </>
+    ),
+    badge: "NPM PACKAGE: Node CommanderJs FileSystem(fs) Child_Process",
+    image: p1,
+    url: "https://www.npmjs.com/package/nemscaf",
+  },
+  {
+    title: "Plan My Trip",
+    description: (
+      <>
+        <p className="text-gray-600 mb-4">
+          <strong>Plant My Trip</strong> is a React.js-based web application
+          designed to assist users in planning journeys to unfamiliar
+          destinations. It provides practical guidance for travelers facing
+          challenges like limited knowledge of the area or finding
+          accommodations.
+        </p>
+        <p className="text-gray-600 mb-4">
+          The app collects user inputs, such as:
+        </p>
+        <ul className="list-disc list-inside text-gray-600 mb-4">
+          <li>Travel destination</li>
+          <li>Duration of stay</li>
+          <li>Budget</li>
+          <li>Number of travelers</li>
+        </ul>
+        <p className="text-gray-600 mb-4">
+          Based on this information, it generates a tailored travel plan,
+          including:
+        </p>
+        <ul className="list-disc list-inside text-gray-600 mb-4">
+          <li>Hotel recommendations that fit the budget</li>
+          <li>Day-by-day itineraries for the duration of the stay</li>
+        </ul>
+        <p className="text-gray-600">
+          This app simplifies trip planning by offering personalized travel
+          solutions.
+        </p>
+      </>
+    ),
+    badge:
+      "ReactJs GoogglePlaceAPi GoogleOAuth GoogleGenerativeAI ShadcdnUI AcertinityUI",
+    image: p2,
+    url: "https://planmytrip-demo.netlify.app/",
+  },
+  {
     title: "Thread Talk",
     description: (
       <>
@@ -87,7 +167,7 @@ const dummyContent = [
       </>
     ),
     badge: "MEAN: MongoDB ExpressJS AngularJS NodeJS",
-    image: p1,
+    image: p3,
     url: "https://github.com/bharatraj1508/ThreadTalk",
   },
   {
@@ -127,46 +207,8 @@ const dummyContent = [
       </>
     ),
     badge: "MEAN: MongoDB ExpressJS AngularJS NodeJS Google SignIn",
-    image: p2,
+    image: p4,
     url: "https://github.com/bharatraj1508/TodoTrek-frontend",
-  },
-  {
-    title: "Building Management System",
-    description: (
-      <>
-        <p>
-          The Building Management System is a comprehensive web application
-          designed to facilitate the efficient management of residential
-          buildings. It allows property managers to create and manage accounts
-          for residents, add new units, and organize building information in one
-          centralized platform.
-        </p>
-        <br />
-        <p>
-          With this system, users can generate maintenance tickets, enabling
-          residents to report issues and track their resolution status.
-          Additionally, the application supports bookings for building
-          amenities, such as gyms or event spaces, making it easy for residents
-          to reserve facilities.
-        </p>
-        <br />
-        <p>
-          Built with Ruby on Rails, this system leverages Ruby and JavaScript
-          with Stimulus for dynamic functionality. PostgreSQL serves as the
-          database, ensuring robust data storage and retrieval for user
-          information and building operations.
-        </p>
-        <br />
-        <p>
-          This project highlights skills in Ruby, Ruby on Rails, JavaScript, and
-          PostgreSQL, showcasing expertise in building user-friendly,
-          database-driven applications for property management.
-        </p>
-      </>
-    ),
-    badge: "Ruby on Rails Postgresql JavaScript",
-    image: p3,
-    url: "https://github.com/bharatraj1508/BMS_Ruby",
   },
 ];
 

@@ -1,8 +1,4 @@
 import { Timeline } from "../ui/timeline";
-import t1 from "../../assets/Journey/Thread-Talk/t1.png";
-import t2 from "../../assets/Journey/Thread-Talk/t2.png";
-import t3 from "../../assets/Journey/Thread-Talk/t3.png";
-import t4 from "../../assets/Journey/Thread-Talk/t4.png";
 
 import g1 from "../../assets/Journey/Guhuza/g1.png";
 import g2 from "../../assets/Journey/Guhuza/g2.png";
@@ -14,6 +10,11 @@ import h2 from "../../assets/Journey/Humber/h2.png";
 import h3 from "../../assets/Journey/Humber/h3.png";
 import h4 from "../../assets/Journey/Humber/h4.png";
 
+import n1 from "../../assets/Journey/nemscaf/n1.png";
+import n2 from "../../assets/Journey/nemscaf/n2.png";
+import n3 from "../../assets/Journey/nemscaf/n3.png";
+import n4 from "../../assets/Journey/nemscaf/n4.png";
+
 const journey = () => {
   const data = [
     {
@@ -21,33 +22,35 @@ const journey = () => {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Started a new project of a social media web app, named, Thread Talk,
-            and currently building and improving.
+            I am developing a CLI tool that enables users to quickly scaffold a
+            boilerplate for Node.js, Express, and MongoDB projects. This tool,
+            published as an npm package, will allow users to effortlessly
+            generate the boilerplate by executing a single npm command.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src={t1}
+              src={n1}
               alt="Thread Talk"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={t2}
+              src={n2}
               alt="Thread Talk"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={t3}
+              src={n3}
               alt="Thread Talk"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src={t4}
+              src={n4}
               alt="Thread Talk"
               width={500}
               height={500}
